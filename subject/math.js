@@ -9,7 +9,7 @@ router.use(function time(request, response, next) {
 
 router.get('/', function (request, response) {
     response.send(
-        '數學課程空間' + '<br>' + '<a href="./Subject/math/teach">教學時刻</a>' +
+        '數學課程空間' + '<br>' + '<a href="./teach">教學時刻</a>' +
         "<br>" + '<a href="/Subject/math/Math.html">題庫</a>'
     );
 });

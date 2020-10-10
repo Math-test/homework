@@ -8,7 +8,7 @@ router.use(function time(request, response, next) {
 });
 
 router.get('/', function (request, response) {
-    response.send('國文課程空間');
+    response.send('國文課程空間(要到支線請填teach)');
 });
 router.get('/teach', function (request, response) {
     response.send(
